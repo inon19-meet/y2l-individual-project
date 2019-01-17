@@ -1,0 +1,50 @@
+h1{
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif;
+	background-color: 
+}
+
+.all{
+	background-color: powderblue;
+	height:100%;
+	position: absolute;
+	width: 100%
+}
+
+p{
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif;
+	padding-top: 20px;
+	font-size: 25px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+
+
+.img_left{
+	position: absolute;
+	margin-left: 150px;
+}
+
+.names{
+	font-size: 60px;
+	padding-left: 70px;
+
+}
+
+.space_img{
+	margin: 25px;
+}
+
+.space_name{
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif;
+	margin: 40px;
+}
+
+
+
+.paragraphs{
+	text-align:center;
+	position: relative;
+	font-size: 40px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}

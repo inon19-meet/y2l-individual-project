@@ -1,0 +1,155 @@
+* {
+    /* Removes extra spacing from all elements on the page */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.sidebar
+{
+
+	position: absolute;
+	width: 20%;
+	background-color: #f4fcfc;
+	border: 3px solid #86cd82;
+	height: 150px;
+	right: 3%;
+
+
+}
+
+h3 {
+	color: black;
+}
+body
+{
+	margin: 0;
+	background-color: powderblue;
+	color:white;
+	/*background-image: url("sky.jpg");*/
+}
+h1
+{
+	color:white;
+	top: 70px;
+	margin-left: 63px;
+	color: black;
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif
+	
+}
+
+
+.navbar
+
+{
+	background-color:#d9edf1;
+	top:250px;
+	width:100%;
+	height: 20px;
+	padding: 10px;
+	border: 5px solid #358600;
+
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+p
+{
+	color:black;
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+
+h2
+{
+	color: black;
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: center;
+	margin-top: 52px;
+}
+
+
+
+#loging
+{
+    position: absolute;
+    right:20px;
+    bottom:392px;
+    text-decoration:none;
+}
+
+#signing
+{
+	position: absolute;
+	right: 100px;
+	bottom: 392px;
+}
+
+#about_us{
+	position: absolute;
+	right: 180px;
+	bottom: 392px;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+
+.comments
+{
+	color: black ;
+	background-color: #f4fcfc;
+	position: absolute;
+	width:70%;
+	border: 3px solid #86cd82;
+	left: 5%;
+	word-wrap: break-word;
+}
+
+
+.styling{
+	text-decoration:none;
+}
+	a:link, a:visited {
+    	color: black;
+    	text-align: center;
+    	text-decoration: none;
+    }
+
+
+.everything{
+	background-image:url("sky4.jpeg");
+	z-index: -1;
+	height:1000px;
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+}
+
+
+h3{
+	color: black;
+	font-family: Avantgarde , TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+
+
+p{
+	position: absolute;
+    right:20px;
+    bottom:392px;
+    text-decoration:none;
+}
+
+ul
+{
+	margin-left: 30px;
+	font-size: 25px;
+}

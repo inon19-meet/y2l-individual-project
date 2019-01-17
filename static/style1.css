@@ -1,0 +1,83 @@
+*{
+	padding: 0px
+}
+
+
+#log_in_now{
+	text-align: center;
+}
+#info{
+	position: relative;
+	top: 20px;
+	right: 5px;
+	font-size:30px;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+#continue{
+	text-align:center;
+	position: relative;
+	font-size: 30px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+#welcome_back{
+	text-align:center;
+	position: relative;
+	font-size: 40px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+#login{
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+	font-size: 15px
+}
+.container{
+	font-size: 25px;
+	top: 10px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+#return_home {
+	text-align: center;
+	font-size: 20px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+#sign_up_now{
+	text-align: center;
+	font-size: 25px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+#log_in_now{
+	text-align: center;
+	font-size: 25px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+#join {
+	text-align:center;
+	position: relative;
+	font-size: 30px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+}
+#cheese{
+	text-align: center;
+	position: relative;
+	font-size: 30px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif
+
+}
+#signup{
+	position: relative;
+	top: 30px;
+	font-size: 30px;
+
+}
+#submit{
+	text-align:center;
+}
+.signup_password{
+	position: relative;
+	bottom: 50px;
+
+}

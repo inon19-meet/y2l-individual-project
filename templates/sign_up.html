@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+
+h1 {
+    text-align: center
+}
+.container{
+    background-color:powderblue;
+    text-align: center
+}
+
+
+</style>
+
+
+    <title>Username</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style1.css')}}">
+</head>
+<body>
+    <h1 id=join >Welcome to The.draWer.W </h1>
+    <h2 id=cheese> Find new people. Change the world. <h2>
+
+ <form action="/sign-up" method="post" >
+  <div class="container">
+    <h1 id=signup>Sign Up</h1>
+    <br>
+    <br>
+    <br>
+<div class="signup_password">
+    <label for="username"><b> <font color='black'>Username :</font></b></label>
+    <input class="form-control" type="text" placeholder="Enter Username" name="username" required>
+    <br>
+    <br>
+    <br>
+    <label for="psw"><b> <font color='black'><font color="white"></font>Password :</font></b></label>
+    <input class="form-control" type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <br>
+    <br>
+    <input type="radio" name="User" value="Writer">Writer
+    <input type="radio" name="User" value="Reader">Reader
+    <input type="radio" name="User" value="Musician">Musician
+    <br>
+    <br>
+    <br>
+    <button id=submit type="submit" class="signupbtn">Sign Up</button>
+  </div>
+  </div>
+</form>
+<br>
+    <p id=log_in_now><a href="{{url_for('log_in')}}">already have an account? log in now</a></p>
+    <p id=return_home><a href="{{url_for('home')}}"> return to home</a></p>
+
+</body>
+</html>

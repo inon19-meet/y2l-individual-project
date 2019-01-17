@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The.draWer.w</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+   <!-- <div class="image">
+        <img src="{{ url_for('static', filename='sky.jpg') }}">
+    </div>
+
+    <!-<p id="loging"><a href="{{url_for('log_in')}}">log in</a></p>
+    <p id="signing"><a href="{{url_for('sign_up')}}">sign up</a></p>-->
+
+    
+    <img src="{{ url_for('static', filename='logo.png') }}" width="200" height="200">
+    <div class="navbar">
+         <p id="loging"><a class="styling" href="{{url_for('log_in')}}">log in</a></p>
+         <p id="signing"><a class="styling" href="{{url_for('sign_up')}}">sign up</a></p>
+         <p id="about_us"><a class="styling" href="{{url_for('about_us')}}">about us</a></p>
+      </div>
+
+
+    
+
+<div class="everything">
+
+     <div class="box">
+       <h1> Songs  </h1>
+      </div>
+
+    <div class="container"> 
+        <div class="comments">
+            <ul>
+              <li></li>
+              <br>
+            </ul>
+        </div>
+
+          <a class="sidebar_text" href='{{url_for("create_post")}}'>
+          <div class="sidebar">
+            <h2> Post a song</h2>
+          </div></a>
+    </div>
+</div>
+</body>
+</html>
